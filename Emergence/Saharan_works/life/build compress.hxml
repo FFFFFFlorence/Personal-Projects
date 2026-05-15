@@ -1,5 +1,0 @@
--cp src
--cp ../Std/src
--D analyzer-optimize
--main generator.Compress
---jvm bin/generator/compress.jar
