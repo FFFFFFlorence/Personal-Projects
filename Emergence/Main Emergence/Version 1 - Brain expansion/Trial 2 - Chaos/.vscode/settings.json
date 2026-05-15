@@ -1,9 +1,0 @@
-{
-    "python-envs.defaultEnvManager": "ms-python.python:system",
-
-    // "editor.quickSuggestions": false,
-    // "editor.suggest.selectionMode": "never",
-    // "editor.suggestOnTriggerCharacters": false,
-    // "editor.parameterHints.enabled": false,
-    // "editor.wordBasedSuggestions": "off"
-}
