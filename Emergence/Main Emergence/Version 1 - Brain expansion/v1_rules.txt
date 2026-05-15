@@ -1,0 +1,16 @@
+1. if a pixel doesn't have any neighbor in its axis, add another one in a random axis 
+2. if there's 2 pixels in an x axis, add another pixel in a y axis. The same applies for the y axis.
+3. if there's 3 pixel connected, add another one in a random axis, then remove one of the existing pixels randomly
+4. decaying rules
+    4.1. if there is only 2 pixel left without any neighbor, slowly delete both pixel one at a time.
+    4.2. if a grid has more than 3 pixels, slowly decay until 3 pixels are left in that grid, so that the next growth can begin.
+    4.3. if a pixel has 5 or more neighbors (saturation), it is removed to prevent solid clumping and maintain fluid movement.
+5. Geometric Completion: if a pixel forms an 'L-shape' with two neighbors, add a diagonal pixel to complete a 2x2 square, creating stable 'order' blocks.
+
+Requirements
+Make sure it used python 3.12 interpreter Version
+-> py -3.12 -m pip install pygame
+
+
+to run the simulation, go into the simulation's directory then type "py -3.12 main.py" onto the terminal 
+e.g -> C:\Florence\Project Euph\Fun Projects\Emergence; From chaos to order\Main Emergence\Version 1 - Brain expansion\Trial 5 - Geometric completion, Sucess> py -3.12 main.py
